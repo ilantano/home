@@ -1,0 +1,157 @@
+html {
+  font-size: 62.5%;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+  	line-height: 1;
+}
+:root{
+	--colorHover: #00c8c8;
+}
+
+.wapper{
+	max-width: 205rem;
+}
+
+.header{
+	font-size: 1.2rem;
+}
+.nav-menu {
+	padding: 0 44rem;
+	min-height: 4.5rem;
+}
+.nav-cart {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+	width: 14.8rem;
+}
+
+.sign {
+	padding-right: 7.8rem;
+}
+
+.navbar-nav>.nav-cart:hover {
+	background-color: var(--colorHover);
+	color:#FFFFFF;
+	height: 4.5rem;
+}
+
+.ave {
+	min-height: 92rem;
+	background-image: url('../img/ave.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.info-ave {
+	padding: 0 13.5rem;
+}
+ul li {
+	list-style: none;
+}
+
+.menu-down {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: baseline;
+	align-content: stretch;
+}
+.nav__menu {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+  .nav__menu .nav__item {
+	line-height:2rem;
+	padding: 0;
+	position: relative;
+  }
+.nav__link {
+	color: white;
+	text-transform:uppercase;
+	font-size: 1.3rem;
+}
+.nav__dropdown {
+	display: none;
+	min-width: 46.7rem;
+	height: 52.7rem;
+	background-color: yellow;
+	padding: 3rem 0;
+}
+
+.direction {
+	display: flex;
+	flex-direction: row;
+	
+}
+.nav__item:hover {
+	cursor: pointer;
+}
+.nav__item:hover > .nav__dropdown{
+	display: table;
+	position:absolute;
+	top: 9.4rem;
+	left: 0;
+}
+/* .nav__item:hover > .nav__dropdown > ul {
+	display: table-row;
+}
+.nav__item:hover > .nav__dropdown > ul > li {
+	display: table-cell;
+} */
+
+.banner-dropdown {
+	margin-top: 6rem 3rem 3rem 3rem;
+	height: 20rem;
+	background-color: #333333;
+	display: flex;
+	text-align: center;
+	font-size: 3.6rem;
+	color: white;
+	align-items: center;
+}
+
+.input-group {
+	width: 19rem;
+	height: 3rem;
+}
+
+.search-form * {
+  background: #fff;
+  height: 30px;
+  border: 0px;
+}
+
+.default-search-form {
+  position: relative;
+}
+
+.header-right .search-form .button {
+  line-height: 30px;
+  padding: 0 10px;
+}
+
+.default-search-form button {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.nut{
+  display: inline-block;
+  padding: 0 17px;
+  line-height: 30px;
+  border: 0 solid;
+  background: #4a525d;
+  color: #fff;
+  font-weight: 400;
+}
